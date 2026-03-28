@@ -1,0 +1,751 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 63%;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  background: url(Docs/Imgs/Fundo/3.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Skills,
+.skills,
+.projectos {
+  background: url(Docs/Imgs/Fundo/1.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skills,
+.contact,
+.projectos,
+.Skills,
+.services,
+footer {
+  box-shadow: 0px 0px 12px 3px rgba(0, 0, 0, 0.226);
+}
+
+.Skills,
+.skills,
+.services,
+.projectos {
+  padding: 8rem 7rem;
+  position: relative;
+  top: 95px;
+}
+
+.skills {
+  height: 648px;
+}
+
+/*!HEADER */
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.4%;
+  z-index: 999;
+  backdrop-filter: blur(100px);
+  border-radius: 0px 0px 25px 25px;
+  animation: dropDown 0.8s ease-out;
+  transition: transform 0.35s ease, opacity 0.35s ease;
+}
+
+section .title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+section .title span {
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 1rem;
+  animation: fadeInUp 1s ease forwards;
+  opacity: 0;
+}
+
+section .title span::before,
+section .title span::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: brown;
+  left: 0;
+  bottom: 0;
+  animation: expandWidth 1s ease forwards;
+}
+
+section .title span::after {
+  bottom: -1rem;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* ! HOME SECTION*/
+
+p {
+  font-size: 20px;
+  line-height: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+
+.social {
+  color: rgba(165, 42, 42, 0.082);
+  font-size: 1.8rem;
+  position: relative;
+  left: 200px;
+}
+
+
+.a2 {
+  font-size: 1.8rem;
+  color: white;
+  margin-left: 4rem;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  position: relative;
+  padding-bottom: 6px;
+  top: 2px;
+}
+
+.a2:hover,
+.a2.active {
+  color: brown;
+}
+
+.a2:hover::after,
+.a2.active::after {
+  width: 100%;
+}
+
+.a2::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background: brown;
+  bottom: 0;
+  left: 0;
+  transition: width 0.2s ease;
+  transition-duration: 0.5s;
+}
+
+.a2:hover {
+  transition-duration: 0.5s;
+  transform: scale(1.20);
+}
+
+.logo:hover {
+  transform: scale(1.2);
+  text-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+}
+
+.logo {
+  font-size: 3.5rem;
+  color: brown;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+  position: relative;
+  top: -1.9px;
+}
+
+.home {
+  position: relative;
+  padding: 10rem 8rem;
+  top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+
+}
+
+.home h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.home h1 span {
+  color: brown;
+}
+
+.home img {
+  width: 25vw;
+  border-radius: 48%;
+  position: relative;
+  animation: fadeInRight 1s ease forwards, float 3s ease-in-out infinite;
+}
+
+.home img:hover {
+  box-shadow: 0 0 20px rgb(39, 37, 37);
+   transform: scale(1.10);
+  transition-duration: 0.5s;
+}
+
+.typing-text {
+  font-size: 3.5rem;
+  font-weight: 600;
+  min-width: 280px;
+  margin-bottom: 2rem;
+  height: 40px;
+  display: inline-block;
+}
+
+.typing-text span {
+  position: relative;
+  color: rgba(255, 255, 255, 0);
+}
+
+
+.typing-text span::before {
+  content: "Full Stack";
+  color: brown;
+  animation: words 6s infinite;
+}
+
+
+.typing-text span::after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  border-left: 3px solid brown;
+  right: -8px;
+  animation: cursor 0.9s infinite, typing 7s steps(12) infinite;
+}
+
+.social {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+  position: relative; top: 50px;
+}
+
+.social a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  background-color: transparent;
+  border: 0.2rem solid brown;
+  font-size: 2.5rem;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.2s ease;
+  animation: fadeInUp 1s ease forwards;
+  opacity: 0;
+  position: relative;
+}
+
+.social a:hover {
+  color: black;
+  background-color: brown;
+  box-shadow: 0 0 10px brown;
+  border-color: brown;
+}
+
+
+/* ! SOFT SECTION */
+.pt2 {
+  text-align: center;
+  align-content: center;
+
+}
+
+.tbox,
+.tbox2 {
+  position: relative;
+  display: inline-flex;
+}
+
+
+.tbox {
+  top: 80px;
+  gap: 1rem;
+  animation: girar 100s infinite;
+}
+
+.tbox2 {
+  top: 120px;
+  gap: 1.5rem;
+  animation: girar2 100s infinite;
+}
+
+/* ! HARD SECTION */
+
+.img2 {
+  width: 85px;
+  height: 85px;
+}
+
+.Skills-details .boxes {
+  gap: 1rem;
+  display: flex;
+  animation: fadeInRight 1s ease forwards, float 3s ease-in-out infinite;
+  position: relative;
+  top: 10px;
+  animation: girar 80s linear infinite;
+}
+
+.Skills-details .boxes .per {
+  font-size: 2rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.topic {
+  font-size: 2.5rem;
+  position: relative;
+}
+
+.Skills-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.Skills-details .box {
+  margin-bottom: 3rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border-left: 3px solid brown;
+}
+
+.Skills-details .box:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.24);
+}
+
+.Skills-details .experience {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  position: relative;
+  animation: fadeInRight 1s ease forwards, float 5s ease-in-out infinite;
+
+}
+
+.Skills-details .experience .num {
+  font-size: 5rem;
+  color: brown;
+  font-weight: 700;
+
+}
+
+.Skills-details .experience .exp {
+  margin-left: 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.per {
+  width: 100%;
+  max-width: 240px;
+  margin: 12px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: stretch;
+}
+
+.per-text {
+  font-size: 17px;
+  color: black;
+  text-align: right;
+  font-weight: 700;
+}
+
+.progress {
+  width: 100%;
+  height: 10px;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, rgba(255, 0, 0, 0.815), brown);
+  border-radius: 12px 0 0 12px;
+
+}
+
+/* !SERVICES SECTION  */
+
+.services .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20rem;
+
+}
+
+.services .box {
+  width: calc(33.33% - 2rem);
+  min-width: 300px;
+  border-radius: 1.5rem;
+  padding: 4rem 2rem;
+  background-color: rgb(20, 20, 20);
+  cursor: default;
+  transition: all 0.4s ease;
+  animation: fadeInUp 1s ease forwards;
+  opacity: 0;
+  border-bottom: 3px solid transparent;
+  border-bottom-color: white;
+}
+
+.services .box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(255, 0, 0, 0.5);
+  border-bottom-color: brown;
+}
+
+.services .box .icon {
+  height: 7rem;
+  width: 7rem;
+  background: rgba(255, 0, 0, 0.5);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 7rem;
+  font-size: 2.5rem;
+  margin: 0 auto 2rem;
+  transition: all 0.4s ease;
+  color: red;
+  border: 2px solid brown;
+}
+
+.services .box:hover .icon {
+  background-color: red;
+  color: white;
+  transform: rotateY(180deg);
+  transition-duration: 1s;
+}
+
+.services .box .topic {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.pt {
+  text-align: left;
+  text-indent: none;
+  font-size: 18px;
+}
+
+.TT,
+.TT2 {
+  border-radius: 0 30px;
+  position: relative;
+}
+
+.TT,
+.TT2 {
+  position: relative;
+  left: 20px;
+  width: 300px;
+  padding: 13PX;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  transition-duration: 0.3s;
+  padding: 15px;
+  background-color: rgba(165, 42, 42, 0.082);
+  box-shadow: 0 2px brown;
+  border-left: 2px solid brown;
+  border-right: 2px solid brown;
+}
+
+
+.TT:hover,
+.TT2:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 2px black;
+}
+
+/* ! PROJECTS SECTION */
+
+.img3 {
+  display: inline-block;
+  width: 100%;
+  padding: 2px;
+  border-radius: 10px;
+  height: 200px;
+}
+
+.img3:hover {
+  transform: scale(1.10);
+  border-radius: 10px;
+  box-shadow: 0 15px 20px rgb(0, 0, 0);
+  transition-duration: 1s;
+
+}
+
+.img4 {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  top: -15px;
+  left: 190px;
+}
+
+.nome {
+  border-radius: 0 10px;
+  border-left: 2px solid brown;
+  border-right: 2px solid brown;
+  width: 50%;
+  background-color: rgba(165, 42, 42, 0.082);
+  text-align: center;
+  color: black;
+  left: 10px;
+  position: relative;
+  top: 20px;
+}
+
+
+.projetos-details .boxes {
+  gap: 4rem;
+  display: inline-flex;
+  height: 305px;
+}
+
+.projetos-details .box {
+  width: calc(50% - 1rem);
+  margin-bottom: 3rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border-left: 2px solid brown;
+  border-right: 2px solid brown;
+
+}
+
+.projetos-details .box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(255, 0, 0, 0.397);
+}
+
+
+/*! footer and contact*/
+
+footer {
+  width: 100%;
+  padding: 1rem 0;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 95px;
+  font-size: 14px;
+}
+
+.contatos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+
+}
+
+.contactos {
+  border-left: 2px solid brown;
+  border-right: 2px solid brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.contactos:hover {
+  background-color: rgba(165, 42, 42, 0.082);
+  box-shadow: 0px 0px 5px black;
+  transform: scale(1.1);
+  transition-duration: 0.2s;
+}
+
+.contactos,
+.contt>img {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+}
+
+
+/*! ANIMAÇÕES*/
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+}
+
+.drop-header.hidden {
+  transform: translateY(-120%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+@keyframes dropDown {
+  0% {
+    transform: translateY(-150px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes words {
+
+  0%,
+  20% {
+    content: "Full Stack";
+  }
+
+  20%,
+  40% {
+    content: "Video Editor";
+  }
+
+  40%,
+  80% {
+    content: "Design Gráfico";
+  }
+
+  60%,
+  100% {
+    content: "Freelancer";
+  }
+
+}
+
+@keyframes cursor {
+  to {
+    border-left: 4px;
+  }
+}
+
+@keyframes girar {
+  from {
+    translate: 0;
+  }
+
+  to {
+    translate: -100%;
+  }
+}
+
+@keyframes girar2 {
+  from {
+    translate: -74%;
+  }
+
+  to {
+    translate: 0;
+  }
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animate-on-scroll.delay-1 {
+  transition-delay: 0.1s;
+}
+
+.animate-on-scroll.delay-2 {
+  transition-delay: 0.2s;
+}
+
+.animate-on-scroll.delay-3 {
+  transition-delay: 0.3s;
+}
+
+.animate-on-scroll.delay-4 {
+  transition-delay: 0.4s;
+}
+
+.animate-on-scroll.delay-5 {
+  transition-delay: 0.5s;
+}
+
+.animate-on-scroll.delay-6 {
+  transition-delay: 0.6s;
+}
+
+.animate-on-scroll.delay-7 {
+  transition-delay: 0.7s;
+}
+
+.animate-on-scroll.delay-8 {
+  transition-delay: 0.8s;
+}
+
+.animate-on-scroll.delay-9 {
+  transition-delay: 0.9s;
+}
+
+.animate-on-scroll.delay-10 {
+  transition-delay: 0.97s;
+}
+
+.animate-on-scroll.delay-11 {
+  transition-delay: 0.99s;
+}
+
+/*!Configuration scroolbar*/
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #222;
+}
+
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c00;
+  transform: scale(1.1);
+}
