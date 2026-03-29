@@ -2,7 +2,6 @@
   let lastScroll = 0;
   const header = document.querySelector('.drop-header') || document.querySelector('header');
   if (!header) return;
-
   window.addEventListener('scroll', function () {
     const current = window.pageYOffset || document.documentElement.scrollTop;
 
