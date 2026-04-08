@@ -8,6 +8,7 @@
   scroll-behavior: smooth;
 }
 
+
 html {
   font-size: 63%;
 }
@@ -748,4 +749,54 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
   background: #c00;
   transform: scale(1.1);
+}
+
+@media screen and (orientation: portrait){
+ header {
+width: 100px;
+
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+
+.social {
+  color: rgba(165, 42, 42, 0.082);
+  font-size: 1.8rem;
+  position: relative;
+  left: 200px;
+}
+
+
+.a2 {
+  font-size: 1.8rem;
+  color: white;
+  margin-left: 4rem;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  position: relative;
+  padding-bottom: 6px;
+  top: 2px;
+}
+
+.logo {
+  font-size: 3.5rem;
+  color: brown;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+  position: relative;
+  top: -1.9px;
+}
+.home img {
+  height: 500px;
+  width: 400px;
+  border-radius: 48%;
+  position: relative;
+}
 }
