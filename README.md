@@ -1,26 +1,40 @@
 ## Olá, sou o Miguel Quizomba. Computer Engineer | Dev Full Stack
+Estou aberto a colaborar em novos projetos! Se tiveres uma ideia ou precisares de um site, aplicação web ou aplicação móvel, sente-te à vontade para entrar em contacto.
+
+---
+
+ **Como contactar-me**  
+- **WhatsApp**: [(+244) 927 650 861](https://wa.me/244927650861)
+- **LinkedIn**: [www.linkedin.com/in/miguelquizomba](https://www.linkedin.com/in/miguelquizomba)
+---
+
+###  **Skills**
+
 <div style="display: inline_block"><br>
-      <img align="center" height="30" width="40"
+      <img align="center" height="50" width="50"
       src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-       <img align="center" height="30" width="40"
+       <img align="center" height="50" width="50"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-        <img align="center" height="30" width="40"
+        <img align="center" height="50" width="50"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-        <img align="center" height="30" width="40"
+        <img align="center" height="50" width="50"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
-        <img align="center" height="30" width="40"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
-        <img align="center" height="30" width="40"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
-        <img align="center" height="30" width="40"
+        <img align="center" height="50" width="50"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
-        <img align="center" height="30" width="40"
+        <img align="center" height="50" width="50"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
-        <img align="center" height="30" width="40"
+        <img align="center" height="50" width="50"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
 </div>
 
-##
+---
+
+###  **Recent Projects**
+Working
+
+
+
+---
 
  <div>
         <a href="https://www.instagram.com/miguelquizomba_m.q/" target="_blank"><img
