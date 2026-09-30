@@ -25,6 +25,8 @@ Estou aberto a colaborar em novos projetos! Se tiveres uma ideia ou precisares d
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
         <img align="center" height="50" width="50"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
+        <img align="center" height="50" width="50"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
 </div>
 
 ---
