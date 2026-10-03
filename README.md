@@ -17,12 +17,14 @@ Estou aberto a colaborar em novos projetos! Se tiveres uma ideia ou precisares d
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
         <img align="center" height="50" width="50"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-        <img align="center" height="50" width="50"
+         <img align="center" height="50" width="50"
+            src="https://img.icons8.com/color/48/c-programming.png" />
+      <img align="center" height="50" width="50"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
         <img align="center" height="50" width="50"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
         <img align="center" height="50" width="50"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+           src="https://img.icons8.com/color-glass/48/github--v1.png">
         <img align="center" height="50" width="50"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
         <img align="center" height="50" width="50"
