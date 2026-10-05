@@ -1,4 +1,4 @@
-## Olá, sou o Miguel Quizomba. Mr.Eight 🎱| Computer Engineer | Dev Full Stack
+## Olá, sou o Miguel Quizomba. Mr.Eight 🎱| Software Engineer | Dev Full Stack
 Estou aberto a colaborar em novos projetos! Se tiveres uma ideia ou precisares de um site, aplicação web ou aplicação móvel, sente-te à vontade para entrar em contacto.
 
 ---
