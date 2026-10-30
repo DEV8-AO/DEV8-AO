@@ -31,8 +31,8 @@ Estou aberto a colaborar em novos projetos! <br> Se tiveres uma ideia ou precisa
 ---
 
 ###  **Recent Projects**
-Working
-
+- [Eight Sell](https://dev8-ao.github.io/Eight-Sell/) - Um web site de vendas, desenvolvido exlusivamente para dois negocios. Eight Food & AdBolachas
+- [ALA.AO]() - Plataforma de ensino e cultura das linguas nacionais de Angola
 
 
 ---
